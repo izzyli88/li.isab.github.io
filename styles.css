@@ -2,10 +2,7 @@
     position: fixed;
     width: 100%;
     background-color: midnightblue;
-    color: teal
+    color: teal;
+
 }
 
-p {
-    color: purple;
-    font: 20px;
-}
