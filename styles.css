@@ -1,19 +1,33 @@
 #navBar {
     position: fixed;
+    top: 15px;
     width: 100%;
-    background-color: black;
-    color: white;
     display: flex;
+    background-color: white;
     justify-content: left;
     align-items: center;
+    z-index: 1000;
 }
 
 .links{
     background-color: rgb(109, 161, 239);
     color: white;
     padding: 8px 15px;
-    margin: 0 5px;
+    margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 20px;
+    font-size: 1.25rem;
 }
+
+.links:hover {
+    background-color: rgb(72, 134, 215);
+    color: white
+}
+
+h1{
+    color: rgb(95, 147, 225);
+    margin-top: 5%;
+}
+
+
