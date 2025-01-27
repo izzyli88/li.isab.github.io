@@ -1,12 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 #navBar {
     position: fixed;
-    top: 15px;
+    top: 25px;
     width: 100%;
     display: flex;
     background-color: white;
     justify-content: left;
     align-items: center;
-    z-index: 1000;
 }
 
 .links{
@@ -15,19 +18,24 @@
     padding: 8px 15px;
     margin: 0 10px;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 20px;
     font-size: 1.25rem;
+    transition: 100ms;
 }
 
 .links:hover {
     background-color: rgb(72, 134, 215);
-    color: white
+    color: white;
+    transform: scale(1.2);
 }
 
-h1{
-    color: rgb(95, 147, 225);
-    margin-top: 5%;
+div{
+    text-align: center;
+    color: rgb(82, 114, 208);
+    margin-top: 7.5%;
 }
 
-
+img{
+    border: 5px solid rgb(72, 134, 215);
+    border-radius: 20px;
+}
