@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title> Rules Page </title>  
-        <link ref="stylesheet" href="highScores.css"> 
-        <link ref="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="rules.css">
 
 
     </head>
@@ -12,19 +12,25 @@
     <body>
         <!-- nav bar -->
         <nav id="navBar">
-            <a href="/index.html"> Home</a> |
-            <a href="/gamePage/" > Game</a> |
-            <a href="/highScores/"> High Scores</a> |
+            <a class="links" href="/index.html"> Home</a> 
+            <a class="links" href="/gamePage/" > Game</a> 
+            <a class="links" href="/highScores/"> High Scores</a> 
 
         </nav>
-        <p> Battleship High Scores:</p>
+        <div>
+            <h1>Rules</h1>
+        </div>
+
+        <div class="container">
+            
+            <div class="ruleImg" id="shipImg">
+                <img src="/battleship.jpg"> </img>
+            </div>
+
+
+        </div>
 
 
     </body>
 
 </html> 
-
-<!-- 
-http://localhost:5500/rules/index.html          old url, ugly
-http://localhost:5500/rules/                    server opens rules folder and serves index.html as default file
- -->

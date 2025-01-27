@@ -1,7 +1,4 @@
-p{
-    color: purple;
-}
-
-.hello{
-    color: black;
+.container{
+    display: grid;
+    
 }
