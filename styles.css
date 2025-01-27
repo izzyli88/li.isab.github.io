@@ -2,8 +2,18 @@
     position: fixed;
     width: 100%;
     background-color: black;
-    color: greenyellow;
-    font-size: 20px;
-
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
+.links{
+    background-color: rgb(109, 161, 239);
+    color: white;
+    padding: 8px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+}
