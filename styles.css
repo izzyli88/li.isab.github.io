@@ -4,38 +4,66 @@
 }
 #navBar {
     position: fixed;
-    top: 25px;
+    top: 0;
     width: 100%;
+    flex-wrap: wrap;
     display: flex;
     background-color: white;
     justify-content: left;
     align-items: center;
+    padding: 10px 0;
+    z-index: 500;
 }
 
 .links{
     background-color: rgb(109, 161, 239);
     color: white;
     padding: 8px 15px;
-    margin: 0 10px;
+    margin: 5px;
     text-decoration: none;
     border-radius: 20px;
-    font-size: 1.25rem;
+    font-size: 1rem;
     transition: 100ms;
 }
 
 .links:hover {
     background-color: rgb(72, 134, 215);
     color: white;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 div{
     text-align: center;
     color: rgb(82, 114, 208);
-    margin-top: 7.5%;
+    margin-top: 12.5%;
+    padding: 0 10px
 }
 
 .pic{
     border: 5px solid rgb(72, 134, 215);
     border-radius: 20px;
+}
+
+
+@media(max-width: 768px) {          /* for mobile size */
+    #navBar{
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .links{
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    div {
+        align-items: center;
+        margin-top: 20%;
+        font-size: 1rem;
+    }
+
+    .pic {
+        max-width: 100%;
+        border-width: 3px;
+    }
 }
