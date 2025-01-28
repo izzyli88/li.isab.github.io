@@ -47,8 +47,9 @@ div{
 
 @media(max-width: 933px) {          /* for mobile size */
     #navBar{
-        flex-direction: column;
+        /* flex-direction: column;  */
         padding: 15px 0;
+        /* justify-content: left; */
     }
 
     .links{
@@ -60,8 +61,8 @@ div{
         margin-top: 20%;
         font-size: 1rem;
         display: flex;
-        flex-direction: column;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
         min-height: 100vh;
     }
