@@ -45,7 +45,7 @@ div{
 }
 
 
-@media(max-width: 768px) {          /* for mobile size */
+@media(max-width: 933px) {          /* for mobile size */
     #navBar{
         flex-direction: column;
         padding: 15px 0;
@@ -57,14 +57,18 @@ div{
     }
 
     div {
-        align-items: center;
         margin-top: 20%;
         font-size: 1rem;
-        color: pink;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
     }
 
     .pic {
-        max-width: 100%;
+        width: 100%;
         border-width: 3px;
+        margin: 20px 0;
     }
 }
