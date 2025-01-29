@@ -1,4 +1,4 @@
-.board{
+.board {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,29 +7,45 @@
     margin: 0;
 }
 
-
-.row{
-    padding-bottom: 15px;
-    margin-top: 15%;
+.row {
     display: flex;
     justify-content: center;
     width: 500px;
-    margin: 0 auto;
-}
-
-.square{
-    display: flex;
-    flex-grow: 1;
-    background-color: rgb(109, 161, 239);
-    aspect-ratio: 1;
+    height: 50px;
     margin: 2px;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
 }
 
-.square:hover{
-    background-color: rgb(106, 61, 218);
+.square {
+    background-color: rgb(109, 161, 239);
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
     transition: 200ms;
+    font-size: 1rem;
+}
+
+.filledBox{
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+
+}
+
+.missBox {
+    background: rgb(229, 111, 111);
+    color: rgb(116, 18, 18);
+}
+
+.hitBox {
+    background-color: rgb(143, 233, 143);
+    color: rgb(14, 100, 14);
+}
+
+.square:hover:not(.hitBox, .missBox) {
+    background-color: rgb(38, 100, 182);
     cursor: pointer;
 }

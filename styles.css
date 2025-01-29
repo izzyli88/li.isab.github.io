@@ -19,11 +19,15 @@
     background-color: rgb(109, 161, 239);
     color: white;
     padding: 8px 15px;
-    margin: 5px;
+    margin: 10px;
     text-decoration: none;
     border-radius: 20px;
-    font-size: 1rem;
-    transition: 100ms;
+    font-size: 1.4rem;
+    transition: 150ms;
+}
+
+#currPage{
+    background-color: rgb(38, 100, 182);
 }
 
 .links:hover {
@@ -35,7 +39,7 @@
 div{
     text-align: center;
     color: rgb(82, 114, 208);
-    margin-top: 12.5%;
+    margin-top: 10%;
     padding: 0 10px
 }
 
