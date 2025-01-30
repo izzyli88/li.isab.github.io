@@ -1,3 +1,7 @@
+
+
+
+
 .board {
     display: flex;
     flex-direction: column;
@@ -29,10 +33,15 @@
 }
 
 .filledBox{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     line-height: 1;
     text-align: center;
 
+}
+
+.shipBox{
+    color: black;
+    background-color: rgb(38, 100, 182);
 }
 
 .missBox {
@@ -45,7 +54,7 @@
     color: rgb(14, 100, 14);
 }
 
-.square:hover:not(.hitBox, .missBox) {
+.square:hover:not(.filledBox) {
     background-color: rgb(38, 100, 182);
     cursor: pointer;
 }
