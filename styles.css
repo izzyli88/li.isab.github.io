@@ -11,7 +11,7 @@
     background-color: white;
     justify-content: left;
     align-items: center;
-    padding: 10px 0;
+    padding: 1rem 0;
     z-index: 500;
 }
 
@@ -39,7 +39,6 @@
 div{
     text-align: center;
     color: rgb(82, 114, 208);
-    margin-top: 8%;
     padding: 0 10px
 }
 
