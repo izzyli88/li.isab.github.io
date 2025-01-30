@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .circle{
@@ -16,4 +15,18 @@
 
     color: white;
     font-size: 1.5rem;
+}
+
+
+@media(max-width: 933px) {          /* for mobile size */
+    .container{
+        height: 100vh;
+    }
+
+    .circle{
+        width: 8rem;
+        height: 9rem;
+        font-size: 1rem;
+
+    }
 }

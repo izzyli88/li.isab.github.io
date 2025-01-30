@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 #navBar {
-    position: fixed;
+    /* position: fixed; */
     top: 1rem;
     width: 100%;
     flex-wrap: wrap;
@@ -51,9 +51,7 @@ div{
 
 @media(max-width: 933px) {          /* for mobile size */
     #navBar{
-        /* flex-direction: column;  */
         padding: 15px 0;
-        /* justify-content: left; */
     }
 
     .button{
