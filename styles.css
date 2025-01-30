@@ -4,7 +4,7 @@
 }
 #navBar {
     position: fixed;
-    margin-top: 1rem;
+    top: 1rem;
     width: 100%;
     flex-wrap: wrap;
     display: flex;
@@ -39,7 +39,7 @@
 div{
     text-align: center;
     color: rgb(82, 114, 208);
-    margin-top: 10%;
+    margin-top: 8%;
     padding: 0 10px
 }
 
