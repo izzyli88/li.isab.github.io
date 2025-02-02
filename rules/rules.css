@@ -18,7 +18,7 @@
 }   
 
 
-@media(max-width: 933px) {          /* for mobile size */
+@media(max-width: 576px) {          /* for mobile size */
 
     .container{
         height: 50vh;
@@ -27,8 +27,8 @@
     .circle{
         width: 6rem;
         height: 6rem;
-        font-size: 0.8rem;
-        margin: 1rem;
+        font-size: 1rem;
+        margin: 0.5rem;
 
     }
 }
